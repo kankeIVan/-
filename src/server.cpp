@@ -14,8 +14,6 @@
 #include <unistd.h>
 #endif
 
-using namespace std;
-
 int main() {
 #ifdef _WIN32
 	WSADATA wsaData; // 声明结构体，存储Windows网络库(Winsock)信息
